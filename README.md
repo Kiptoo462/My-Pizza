@@ -30,7 +30,7 @@ https://github.com/Kiptoo462/My-Pizza.git
 
 
 ## Live link
-   [My-Pizza](https://github.com/Kiptoo462/My-Pizza)
+   [My-Pizza](https://kiptoo462.github.io/My-Pizza/)
 
 ## BDD
      The Customer should be able to ;
