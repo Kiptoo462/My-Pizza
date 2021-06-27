@@ -43,7 +43,8 @@ https://github.com/Kiptoo462/My-Pizza.git
   + If he/she want his/her pizza to be delivered, he/she want to be prompted to enter where the delivery should be made and an alert saying '' your order will be delivered to your location"
   + See a checkout button that when clicked shows the total amount charged for the orders.
   
-
+## known bags
+  + The application is working completely as expected.
 ## Technologies Used
   *  HTML
   *  CSS
