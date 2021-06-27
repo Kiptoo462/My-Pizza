@@ -5,18 +5,108 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="static/css/bootstrap.css">
+  <link rel="stylesheet" href="static/css/bootstrap.css.map">
   <link rel="stylesheet" href="static/css/styles.css" type="text/css">
-  <link rel="stylesheet" href="static/js/jQuery-3.6.0.js">
-  <link rel="stylesheet" href="static/script.js" type="text/js">
+  <script src="static/js/jQuery-3.6.0.js"></script>
+  <script src="static/js/script.js"></script>
   <title>My-Pizza</title>
 </head>
 <body>
   <div class="container-fluid">
+    <header>
+    <div class="container">
+        <div id="overlay">
+            <div id="banner">
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="#banner">Home</a>
+                        </li>
+                        <li>
+                            <a href=".Order-form">Order Now</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+    </header>
     <div class="jumbotron-fluid">
+        <div id="overlay"></div>
       <img src="static/images/logopr.png" alt="logo">
       <h1>DELICIOUS PIZZA </h1>
       <h2>YOUR HOME FOR PIZZA</h2>
     </div>
+
+    <div class="container">
+      <div class="row">
+          <div  class=" pizaa-form col-md-6">
+              <h1>BOOK YOUR PIZZA ORDER NOW!!!...</h1>
+              <section class="order-form">
+                  <div id="inputs">
+                  <form id="myForm">
+                      <h1>Pizza Order</h1>
+                      Name:<input type="text" name="name" placeholder="Your name"><br><br>
+                      Address: <input type="email" name="email" placeholder="E.g. Africa 118, Westlands Business Centre, 7 Floor, Chiromo Lane, Westlands, Nairobi. Street City, ST Zip"><br/><br/>
+                      <p>Pizza size</p>
+                      <select id="sizeSelector">
+                          <option disabled selected>Select size</option>
+                          <option id="size1" value="500">small</option>
+                          <option id="size2" value="650">medium</option>
+                          <option id="size3" value="800">large</option>
+                      </select>
+
+                      <p>Pizza Toppings </p>
+
+                        <input  value="200" type='checkbox' checked>Sausage
+                        <input type='checkbox' value="500">Pepperoni
+                        <input type='checkbox' value="200">Onions
+                        <input type='checkbox' value="50">Green Peppers
+                        <input type='checkbox' value="800">Extra Cheese<br>
+
+                      <p>Crust</p>
+
+                      <select id="crustSelector">
+                          <option disabled selected> Select Crust</option>
+                          <option id="crust1" value="450">Crispy</option>
+                          <option id="crust2" value="500">Stuffed</option>
+                          <option id="crust3" value="700">Gluten free</option>
+                      </select>
+
+                      <p>Orders</p>
+                      <select id="id-delivery">
+                        <option> One </option>
+                        <option>Two</option>
+                        <option>Three</option>
+                        <option>Four</option>
+                        <option>Five</option>
+                        <option>Five+</option>
+                      </select>
+
+                       <p>Delivery</p>
+                      <select id="id-delivery">
+                        <option> Delivery </option>
+                        <option> No Delivery</option>
+                      </select>
+
+                      <button type="submit" value="Submit" id="sb">Place Order</button>
+                  
+                   </div>
+                  </form>
+
+              </section>
+
+          </div>
+          <div class="col-md-6" id="tot">
+              <h1 id="smr"> Total</h1>
+              <h1 id="total1"> Cost:</h1><br><br>
+              <button type="button" onclick="window.location.reload(true)" id="nwOrder">New Order</button>
+
+          </div>
+          <p id="checksum"></p>
+      </div>
+      </div>
+
   </div>
 </body>
 </html>
