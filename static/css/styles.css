@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.jumbotron-fluid{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  background-image: url("../images/restaurant.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  color: black;
+}
+.jumbotron-fluid img{
+  border-radius: 50%;
+  border: 2px solid black;
+
+}
+.jumbotron-fluid h2 {
+font-style: italic;
+}
+.jumbotron-fluid h1{
+  font-weight: 800;
+}
