@@ -36,7 +36,15 @@ $(document).ready(function() {
         });
 
         }) 
+    //js function
+        $("#id-delivery").change(function (){
+            let selected = $(this).val();
+            if(selected==1){
+                let deliveryLocation = prompt("Please enter your preferred delivery location:");
+                alert("We will deliver the pizza to  "  + deliveryLocation + ",This will cost you KES. 350/=");
+            }
+         
+        });
        
   
  });
-//js function
