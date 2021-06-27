@@ -47,7 +47,7 @@
                   <form id="myForm">
                       <h1>Pizza Order</h1>
                       Name:<input type="text" name="name" placeholder="Your name"><br>
-                      Location:<input type="text" name="name" placeholder=" i.e Westlands, Nairobi. Street City, ST Zip"><br>
+                      Phone:<input type="number" name="Phone number" placeholder=" 0712-345-689"><br>
                       <p>Pizza size</p>
                       <select id="sizeSelector">
                           <option disabled selected>Select size</option>
@@ -59,10 +59,10 @@
                       <p>Pizza Toppings </p>
 
                         <input  value="200" type='checkbox' checked>Sausage
-                        <input type='checkbox' value="500">Pepperoni
+                        <input type='checkbox' value="250">Pepperoni
                         <input type='checkbox' value="200">Onions
                         <input type='checkbox' value="50">Green Peppers
-                        <input type='checkbox' value="800">Extra Cheese<br>
+                        <input type='checkbox' value="400">Extra Cheese<br>
 
                       <p>Crust</p>
 
@@ -74,7 +74,7 @@
                       </select>
 
                       <p>Orders</p>
-                      <select id="id-delivery">
+                      <select id="id-order">
                         <option> One </option>
                         <option>Two</option>
                         <option>Three</option>
@@ -83,10 +83,11 @@
                         <option>Five+</option>
                       </select>
 
-                       <p>Delivery</p>
+                      <p>Delivery</p>
                       <select id="id-delivery">
-                        <option> Delivery </option>
-                        <option> No Delivery</option>
+                        <option value="0">Select delivery option</option>
+                        <option value="1"> Delivery </option>
+                        <option value="2"> No Delivery</option>
                       </select>
 
                       <button type="submit" value="Submit" id="sb">Place Order</button>
