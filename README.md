@@ -4,7 +4,8 @@
 #### By **Kiptoo Victor**
 
 ## Description
- This is a web application for My-Pizza.  This is a web application for My-Pizza to help me consolidate and understand better the concepts that we have covered throughout this week i.e contractors and prototypres.
+ This is a web application for My-Pizza.  This is a web application for My-Pizza to help me practices, consolidate and understand better the concepts that we have covered throughout this week. These include working with constructors, prototypes, objects, properties, and methods in Javascript as well as using jQuery and DOM manipulation & traversal.
+ 
 ## Setup/Installation Requirements
 ### Requirements
 * Text editor
